@@ -91,7 +91,7 @@ nav img{
         background: #ffff00;
         position: sticky;
         cursor: pointer;
-        right: 0;
+       
         font-size: 42px;
         
     }
@@ -304,28 +304,8 @@ nav .fa{
         
         
     }
-    .nav-links ul li{
-        display: block;
-        color: #040404;
-        border: #00dcd1;
-    }
-    .nav-links ul li a{
-        display: block;
-        color: #040404;
-    }
-    .nav-links{
-        position: fixed;
-        background: #fff;
-        height: 50vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: right;
-        z-index: 1;
-        transition: 1s;
-        margin: auto;
-        
-    }
+    
+    
         
 
     nav .fa {
@@ -533,7 +513,7 @@ div img{
     
     width: 60%;
     
-    margin-left: 20%;
+    
     
 
     background-color: #ffffff60;
@@ -558,7 +538,7 @@ h4{
     text-align: left;
     color: #040404;
     font-size: 32px;
-    padding-left: 50px;
+    
 
 }
 
@@ -770,9 +750,7 @@ h4{
         display: block;
         margin: auto;
     }
-    .map img{
-        left: 10%;
-    }
+    
     .map p{
         font-size: 26px;
         display: block;
