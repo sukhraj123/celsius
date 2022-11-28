@@ -34,7 +34,7 @@
     padding: 12px 24px;
     border-radius: 10px;
     background: #ffff00;
-    position: fixed;
+    position: relative;
     cursor: pointer;
     
     font-size: 42px;
@@ -271,11 +271,12 @@ nav .fa{
        .header img{
         width: 200px;
        }
-    .break hero-htn{
+    .rowww{
         display: block;
         margin: auto;
-        
+        right: 20vw;
         border-radius: 8px;
+        justify-content: space-around;
     }
     .break img{
         display: block;
@@ -487,10 +488,10 @@ div img{
 }
 .roww img{
     
-    width: 300px;
-    background-color: #04040413;
-    box-shadow: 10px 0 40px 10px rgba(179, 255, 0, 0.432);
-    border-radius: 500px;
+    width: 200px;
+    
+    
+    border-radius: 50px;
     
 
 }
@@ -524,20 +525,7 @@ div img{
     padding-top: 50px;
 
 }
-.rowwww{
-    
-    
-    width: 60%;
-    
-    margin-left: 20%;
-    
 
-    background-color: #ffffff60;
-    border-radius: 7px;
-    padding-top: 15px;
-
-
-}
 .rowwww img{
     
     width: 300px;
@@ -554,7 +542,7 @@ h4{
     text-align: left;
     color: #040404;
     font-size: 32px;
-    padding-left: 50px;
+    
 
 }
 
@@ -581,10 +569,8 @@ h4{
         display: block;
         width: 80%;
     }
-    .rowww{
-        flex-direction:column;
-        width: 80%; 
-    }
+    
+    
     .about{
         width: 100%; 
         background-color: #ffffff60;
@@ -714,10 +700,8 @@ h4{
     
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin-left: 10%;
-    background-color: #ffffff30;
-    border-radius: 7px;
+    width: 10%;
+    
 
 
 }
