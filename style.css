@@ -59,7 +59,7 @@
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .header img{
     animation: fadeIn 5s;
@@ -350,7 +350,7 @@ nav .fa{
     }
 }
 .snowflake {
-    position: fixed;
+    position: sticky;
     user-select: none;
     z-index: 1000;
     pointer-events: none;
@@ -364,7 +364,7 @@ nav .fa{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(bg3.jpg);
+    background-image: url(bg7.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: inherit;
@@ -469,8 +469,8 @@ div img{
   background-position: center;
   background-repeat: no-repeat;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 400px;
+    padding-bottom: 400px;
     
 }
 .roww{
