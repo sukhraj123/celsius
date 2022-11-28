@@ -21,8 +21,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header{
     min-height: 400px;
     width: 100%;
+    background-image: url(bg1.jpg);
     
-    background-color: #040404;
     
     background-size: cover;
     
@@ -35,18 +35,31 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 nav img{
     width: 250px;
     background-position: fixed;
-    background-color: #00000099;
+ background-color: #00000018;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+    border-radius: 7px;
   }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    
+    justify-content: space-between;
+    align-items: left;
+   
+    border: 10px solid #00dcd1;
+    background: #00dcd1;
+    transition: 1s;
+}
 .nav-links{
     flex: 1;
     
-    width: fit-content;
-    text-align: center;
+    width:20px;
+    border-radius: 10px;
+    border: #00dcd1;
 
 }
 .nav-links ul li{
@@ -54,6 +67,7 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+    
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -62,9 +76,10 @@ nav img{
     
 } 
 .nav-links ul li a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 14px;
+    
     
 }
 .nav-links ul li::after{
@@ -85,14 +100,7 @@ nav img{
     margin: auto;
     
 }
-.top a{
-        position:fixed;
-        width: 100%;
-    
-        background-color: #31a6ff60;
-        border-radius: 5px;
-        animation: fadeIn 5s;
-}
+
     
 
 .logo img{
@@ -123,7 +131,7 @@ nav img{
     
     background-color: transparent;
     border-radius: 7px;
-    color: #ffffff;
+    color: #000000;
     
     
     
@@ -151,7 +159,28 @@ nav img{
     background: #00dcd1;
     transition: 1s;
 }
-
+.header .hero-btn{
+    
+    left: 60%;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border:solid #ffff00;
+    padding: 12px 24px;
+    font-size: 15px;
+    background: #ffff00;
+    position: sticky;
+    cursor: pointer;
+    right: 0;
+    
+}
+.hero-btn:hover{
+    border: 10px solid #00dcd1;
+    background: #00dcd1;
+    transition: 1s;
+}
 nav .fa{
     display: none;
 }
@@ -179,10 +208,15 @@ nav .fa{
 .breakk{
     min-height: 200px;
     width: 100%;
-    background-color: #040404;
+    
     background-position: center;
     display: flex;
-    
+    background-size: cover;
+    background-image: url(bg4.jpg);
+    position: relative;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -199,31 +233,25 @@ nav .fa{
 @media(max-width: 700px){
         
         nav img{
-            width: 200px;
+            width: 100px;
         }
-       
+       .header img{
+        width: 200px;
+       }
     .break hero-htn{
         display: block;
         margin: auto;
         
         border-radius: 8px;
     }
-    .break a{
+    .break img{
         display: block;
         margin: auto;
-        margin-left: 0;
+        width: 80%;
         border-radius: 8px;
     }
     
-        
-        
-
-
-    
-  
-        
-    
-    .text-box{
+     .text-box{
         width: 60%;
         
         display: block;
@@ -242,6 +270,7 @@ nav .fa{
     .nav-links ul li{
         display: block;
         color: #040404;
+        border: #00dcd1;
     }
     .nav-links ul li a{
         display: block;
@@ -257,10 +286,11 @@ nav .fa{
         text-align: right;
         z-index: 1;
         transition: 1s;
+        margin: auto;
         
     }
         
-}
+
     nav .fa {
         display: block;
         color: #fff;
@@ -285,7 +315,7 @@ nav .fa{
         padding: 15px;
         color: #040404;
     }
-
+}
 
 .service{
 
@@ -295,12 +325,14 @@ nav .fa{
     background-position: center;
     background-size: cover;
     position: relative;
-
+    background-image: url(bg3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: inherit;
     text-align: center;
     animation: fadeIn 5s;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
     
 
@@ -349,6 +381,9 @@ p{
         padding-bottom: 100px;
     
 }
+.seo p{
+    padding-top: 100px;
+}
 .service-col img{
 
     width: 280px;
@@ -388,16 +423,15 @@ div img{
     margin: auto;
     width: 100%;
     background-image: url(3.png);
-    background-position: center;
     background-size: cover;
+    
     position: relative;
-
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: inherit;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
 .roww{
@@ -460,12 +494,16 @@ h4{
     .service{
         margin: auto;
         display: block;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
   
     
     .about{
         margin: auto;
         display: block;
+        padding-top: 150px;
+        padding-bottom: 150px;
         
     }
     
@@ -503,17 +541,13 @@ h4{
 .bottom{
 
     background-color: #1b1b11;
-    
+    background-image: url(bg5.jpg);
     margin: auto;
     width: 100%;
 
     background-position: center;
     background-size: cover;
-    position: relative;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: inherit;
+    
     text-align: center;
     animation: fadeIn 5s;
 
@@ -531,12 +565,35 @@ h4{
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
-
+    
+    background-size: cover;
+    background-image: url(bg2.jpg);
+    position: relative;
+    
 }
 .social img{
-    width: 750px;
+    width: 900px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.sociall{
+    
+    border-radius: 5px;
+    
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    
+    
+    position: relative;
+    
+}
+.sociall img{
+    width: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fcfcfc;
 }
 .fa{
     
@@ -564,12 +621,10 @@ h4{
   }
 
 
-.pop p{
-    color:#ffffff;
+
+.bottom img{
+    width: 20px;
     padding-top: 100px;
-    text-align: center;
-    background-color: #1b1b11;
-    
 }
 
 .servicee{
