@@ -1,12 +1,48 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Anek Tamil', sans-serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Lora', serif;
-font-family: 'Philosopher', sans-serif;
+    font-family: 'Nerko One', cursive;
 
+}
+.hero-htn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000000;
+    padding: 12px 24px;
+    font-size: 15px;
+    background: transparent;
     
+    cursor: pointer;
+    
+}
+.hero-htn:hover{
+    border: 10px solid #00dcd1;
+    background: #00dcd1;
+    transition: 1s;
+}
+.header .hero-btn{
+    
+    left: 60%;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border:solid #ffff00;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: #ffff00;
+    position: fixed;
+    cursor: pointer;
+    right: 0;
+    font-size: 42px;
+    
+}
+.hero-btn:hover{
+    border: 10px solid #00dcd1;
+    background: #00dcd1;
+    transition: 1s;
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
     margin: 0;
@@ -17,7 +53,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
 }
-
 .header{
     min-height: 400px;
     width: 100%;
@@ -43,6 +78,30 @@ nav img{
     -ms-animation: fadeIn 5s;
     border-radius: 7px;
   }
+  
+  .order{
+    
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border:solid #ffff00;
+        padding: 12px 24px;
+        border-radius: 10px;
+        background: #ffff00;
+        position: sticky;
+        cursor: pointer;
+        right: 0;
+        font-size: 42px;
+        
+    }
+
+    .order:hover{
+        border: 10px solid #00dcd1;
+        background: #00dcd1;
+        transition: 1s;
+    }
+
+
   nav{
     display: flex;
     padding: 2% 6%;
@@ -142,45 +201,7 @@ nav img{
     animation: fadeIn 5s;
 }
 
-.hero-htn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #000000;
-    padding: 12px 24px;
-    font-size: 15px;
-    background: transparent;
-    
-    cursor: pointer;
-    
-}
-.hero-htn:hover{
-    border: 10px solid #00dcd1;
-    background: #00dcd1;
-    transition: 1s;
-}
-.header .hero-btn{
-    
-    left: 60%;
-}
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border:solid #ffff00;
-    padding: 12px 24px;
-    font-size: 15px;
-    background: #ffff00;
-    position: sticky;
-    cursor: pointer;
-    right: 0;
-    
-}
-.hero-btn:hover{
-    border: 10px solid #00dcd1;
-    background: #00dcd1;
-    transition: 1s;
-}
+
 nav .fa{
     display: none;
 }
@@ -188,18 +209,31 @@ nav .fa{
 .break{
     min-height: 200px;
     width: 100%;
-    background-color: #040404;
-    background-position: center;
+    
+    background-image: url(b6.jpg);
+    
+    
+    background-size: cover;
+    
+    position: relative;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
     display: flex;
     
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
 }
 .break a{
-    width: 80%;
-    flex-direction: 25%;
     
+    background-color: #000000;
+    width: 60%;
+    flex-direction: 20%;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    border-style: solid;
 }
 .break img{
 
@@ -212,6 +246,7 @@ nav .fa{
     background-position: center;
     display: flex;
     background-size: cover;
+    
     background-image: url(bg4.jpg);
     position: relative;
     background-attachment: fixed;
@@ -316,7 +351,13 @@ nav .fa{
         color: #040404;
     }
 }
-
+.snowflake {
+    position: fixed;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    width: 15px;
+  }
 .service{
 
     margin: auto;
@@ -453,6 +494,36 @@ div img{
     box-shadow: 10px 0 40px 10px rgba(179, 255, 0, 0.432);
     border-radius: 500px;
     
+
+}
+.map{
+    background-color: #ff8058;
+    margin-top: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+.map img{
+    width:300px;
+    
+}
+.map h1{
+    color: #fff;
+    text-align: center;
+    font-size: 68px;
+    top: 10%;
+}
+.map p{
+    color: #fff;
+    font-size: 38px;
+    width: 400px;
+    text-align: center;
+    font-weight: 200px;
+    padding: 5px;
+    padding-top: 50px;
 
 }
 .rowwww{
@@ -689,6 +760,31 @@ h4{
     cursor: zoom-out;
   }
   @media(max-width: 700px){
+    .hero-btn {
+        display: block;
+        margin: auto;
+    }
+    .map {
+        display: block;
+        margin: auto;
+    }
+    .map img{
+        left: 10%;
+    }
+    .map p{
+        font-size: 26px;
+        display: block;
+        margin: auto;
+        width: 250px;
+    }
+    sociall {
+        display: block;
+        margin: auto;
+    }
+    sociall img{
+        width: 300px;
+        
+    }
     .social {
         display: block;
         margin: auto;
@@ -704,4 +800,10 @@ h4{
         .breakk img{
             width: 300px;
         }
+}
+.menu{
+    width: 100%;
+}
+.pic img{
+    width: 100vw;
 }
