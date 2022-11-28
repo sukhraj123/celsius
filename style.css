@@ -290,12 +290,12 @@ nav .fa{
        .header img{
         width: 200px;
        }
-    .rowww{
+    .rowww a{
         display: block;
         margin: auto;
-        right: 20vw;
+        left: -40%;
         border-radius: 8px;
-        justify-content: space-around;
+        
     }
     .break img{
         display: block;
