@@ -45,6 +45,23 @@
 .header img{
     animation: fadeIn 5s;
 }
+.headerb{
+    min-height: 500px;
+    width: 100%;
+    background-image: url(bg1.jpg);
+    
+    
+    background-size: cover;
+    
+    position: relative;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.headerb img{
+    animation: fadeIn 5s;
+}
 nav img{
     width: 250px;
     background-position: fixed;
