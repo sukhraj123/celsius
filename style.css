@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Nerko One', cursive;
-
+    border: 0;
+    outline: 0;
+    font-size: 100%;
 }
+
+
 .hero-htn{
     display: inline-block;
     text-decoration: none;
@@ -35,22 +39,14 @@
     
     font-size: 42px;
     
-    
+    margin: auto;
 }
 .hero-btn:hover{
     border: 10px solid #00dcd1;
     background: #00dcd1;
     transition: 1s;
 }
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
+
 .header{
     min-height: 400px;
     width: 100%;
@@ -63,7 +59,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .header img{
     animation: fadeIn 5s;
@@ -91,7 +87,7 @@ nav img{
         background: #ffff00;
         position: sticky;
         cursor: pointer;
-       
+        right: 0;
         font-size: 42px;
         
     }
@@ -304,8 +300,28 @@ nav .fa{
         
         
     }
-    
-    
+    .nav-links ul li{
+        display: block;
+        color: #040404;
+        border: #00dcd1;
+    }
+    .nav-links ul li a{
+        display: block;
+        color: #040404;
+    }
+    .nav-links{
+        position: fixed;
+        background: #fff;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: right;
+        z-index: 1;
+        transition: 1s;
+        margin: auto;
+        
+    }
         
 
     nav .fa {
@@ -513,7 +529,7 @@ div img{
     
     width: 60%;
     
-    
+    margin-left: 20%;
     
 
     background-color: #ffffff60;
@@ -538,7 +554,7 @@ h4{
     text-align: left;
     color: #040404;
     font-size: 32px;
-    
+    padding-left: 50px;
 
 }
 
@@ -750,7 +766,9 @@ h4{
         display: block;
         margin: auto;
     }
-    
+    .map img{
+        left: 0;
+    }
     .map p{
         font-size: 26px;
         display: block;
