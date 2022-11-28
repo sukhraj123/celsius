@@ -50,7 +50,10 @@
 }
 .home{
     padding-bottom: 100px;
+    margin: auto;
+    
 }
+
 .headerb{
     min-height: 600px;
     width: 100%;
@@ -418,18 +421,7 @@ p{
     padding: 10px;
 }
 
-.row{
-    
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-    
 
-    background-color: #ffffff30;
-    border-radius: 7px;
-
-
-}
 
 .service-col{
     flex-basis: 31%;
@@ -483,7 +475,9 @@ div img{
 .layer:hover{
     background: #787a40;
 }
-
+.text x{
+    text-align: center;
+}
 .about{
 
     margin: auto;
@@ -591,10 +585,7 @@ h4{
     }
     
 
-    .row{
-        display: block;
-        width: 80%;
-    }
+    
     
     
     .about{
