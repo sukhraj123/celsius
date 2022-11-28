@@ -21,10 +21,7 @@
     background: #00dcd1;
     transition: 1s;
 }
-.header .hero-btn{
-    
-    left: 60%;
-}
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -35,9 +32,10 @@
     background: #ffff00;
     position: fixed;
     cursor: pointer;
-    right: 0;
+    
     font-size: 42px;
     
+    margin: auto;
 }
 .hero-btn:hover{
     border: 10px solid #00dcd1;
@@ -66,6 +64,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 10px;
+}
+.header img{
+    animation: fadeIn 5s;
 }
 nav img{
     width: 250px;
@@ -197,7 +198,8 @@ nav img{
 }
 
 .text-box a{
-    flex-basis: 30%;
+    margin: auto;
+    display: block;
     animation: fadeIn 5s;
 }
 
@@ -648,23 +650,23 @@ h4{
     padding-bottom: 100px;
 }
 .sociall{
-    
+    flex-basis: 31%;
     border-radius: 5px;
     
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
-    
-    
+    justify-content: space-around;
+    background-size: cover;
+    background-color: #fff;
     position: relative;
     
 }
 .sociall img{
-    width: 800px;
+    width: 50vw;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #fcfcfc;
 }
 .fa{
     
@@ -780,17 +782,18 @@ h4{
     sociall {
         display: block;
         margin: auto;
+        
     }
     sociall img{
-        width: 300px;
-        
+        max-width: 340px;
+
     }
     .social {
         display: block;
         margin: auto;
     }
     .social img{
-        width: 300px;
+        width: 340px;
     }
     
         .breakk {
