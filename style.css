@@ -5,6 +5,7 @@
     border: 0;
     outline: 0;
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -26,26 +27,6 @@
     transition: 1s;
 }
 
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border:solid #ffff00;
-    padding: 12px 24px;
-    border-radius: 10px;
-    background: #ffff00;
-    position: relative;
-    cursor: pointer;
-    
-    font-size: 42px;
-    
-    margin: auto;
-}
-.hero-btn:hover{
-    border: 10px solid #00dcd1;
-    background: #00dcd1;
-    transition: 1s;
-}
 
 .header{
     min-height: 400px;
@@ -110,6 +91,27 @@ nav img{
     background: #00dcd1;
     transition: 1s;
 }
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border:solid #ffff00;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: #ffff00;
+    position:absolute;
+    cursor: pointer;
+    
+    font-size: 40px;
+    
+    margin: auto;
+}
+.hero-btn:hover{
+    border: 10px solid #00dcd1;
+    background: #00dcd1;
+    transition: 1s;
+}
+
 .nav-links{
     flex: 1;
     
