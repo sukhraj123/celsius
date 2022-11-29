@@ -398,7 +398,7 @@ nav .fa{
     background-size: cover;
     position: relative;
     background-image: url(bg7.jpg);
-    
+    background-attachment: fixed;
     background-position: center;
     background-repeat: inherit;
     text-align: center;
