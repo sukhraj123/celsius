@@ -393,18 +393,17 @@ nav .fa{
 
     margin: auto;
     width: 100%;
-    background-color: #fff;
+    height: 800px;
     background-position: center;
     background-size: cover;
     position: relative;
     background-image: url(bg7.jpg);
-    background-attachment: fixed;
+    
     background-position: center;
     background-repeat: inherit;
     text-align: center;
     animation: fadeIn 5s;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    
     
     
 
@@ -503,18 +502,19 @@ div img{
     width: 100%;
     
    
-    background-color: #ffffff60;
+    
     border-radius: 7px;
     padding-top: 15px;
 
 
 }
 .roww img{
+
     
-    width: 200px;
+    width: 80%;
     
     
-    border-radius: 50px;
+    border-radius: 30px;
     
 
 }
