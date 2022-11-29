@@ -53,7 +53,10 @@
     margin: auto;
     
 }
+.soci a{
+    width: 10%;
 
+}
 .headerb{
     min-height: 600px;
     width: 100%;
@@ -697,6 +700,11 @@ h4{
 .bottom img{
     width: 20px;
     padding-top: 100px;
+}
+.ig img{
+    width: 40px;
+    padding-top: 100px;
+    margin-bottom: -100px;
 }
 
 .servicee{
