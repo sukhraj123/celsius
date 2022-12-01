@@ -74,10 +74,9 @@
 .headerb img{
     animation: fadeIn 5s;
 }
-nav img{
-    width: 250px;
+.header img{
+    width: 350px;
     background-position: fixed;
- background-color: #00000018;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -327,7 +326,15 @@ nav .fa{
     }
     
      .text-box{
-        width: 50%;
+        
+        
+        display: block;
+        margin: auto;
+        align-items: center;
+        margin-right: 150px;
+    }
+    .text-box a{
+        
         
         display: block;
         margin: auto;
@@ -352,12 +359,12 @@ nav .fa{
         color: #040404;
     }
     .nav-links{
-        position: fixed;
-        background: #fff;
+        
+        
         height: 50vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: 200px;
         text-align: right;
         z-index: 1;
         transition: 1s;
@@ -368,11 +375,7 @@ nav .fa{
 
     nav .fa {
         display: block;
-        color: #fff;
-        margin: 16px;
-        font-size: 22px;
-        cursor: pointer;
-        transition: 1s;
+        
 
         
 
@@ -576,7 +579,7 @@ h4{
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 300px){
 
     .service{
         margin: auto;
