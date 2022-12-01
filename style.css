@@ -114,10 +114,9 @@ nav img{
     padding: 2% 6%;
     
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
    
-    border: 10px solid #00dcd1;
-    background: #00dcd1;
+    
     transition: 1s;
 }
 .hero-btn{
@@ -136,8 +135,8 @@ nav img{
     margin: auto;
 }
 .hero-btn:hover{
-    border: 10px solid #00dcd1;
-    background: #00dcd1;
+    border: 10px solid #ffc116;
+    background: #ffc116;
     transition: 1s;
 }
 
@@ -154,7 +153,7 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    
+    width: 50%;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -163,9 +162,12 @@ nav img{
     
 } 
 .nav-links ul li a{
-    color: #000000;
-    text-decoration: none;
-    font-size: 14px;
+    margin: auto;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: #ffc116;
+    border-radius: 10px;
+    
     
     
 }
@@ -228,7 +230,9 @@ nav img{
 .text-box a{
     margin: auto;
     display: block;
-    
+    color: rgb(0, 0, 0);
+    background-color: #ffc116;
+    border-radius: 50px;
 }
 
 
